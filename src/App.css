@@ -1,0 +1,94 @@
+@import '~antd/dist/antd.css';
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans';
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+#components-dropdown-demo-dropdown-button .ant-dropdown-button {
+  margin: 0 8px 8px 0;
+}
+
+#components-dropdown-demo-dropdown-button .ant-btn-group-rtl.ant-dropdown-button {
+  margin: 0 0 8px 8px;
+}
+.ant-card { margin-bottom: 19.99px;
+  border-radius: 6px;
+  background: #FFFFFF;
+  padding: 20px;
+  }
+  .text-toppic{
+    font-size: 20px;
+    font-family: "Sukhumvit Set";
+  }
+  .text-title{
+    font-size: 16px;
+    font-family:"Sukhumvit Set";
+  
+  }
+  .text-percent{
+    align-items: end;
+    position: relative;
+    float: right;
+    font-size: 19px;
+    font-family: "Sukhumvit Set";
+  }
+  .col-job{
+      width: 50%;
+  }
+  .col-gender{
+      width: 50%;
+    
+    
+  }
+  .text-gender{
+    align-items: end;
+    position: relative;
+    float: right;
+    font:  "medium";
+    font-size: 18px;
+    font-family: "Sukhumvit Set-Medium";
+    color:rgba(41, 39, 102, 0.7);
+  }
+  .font{
+    font-family: "Sukhumvit Set";
+  }
+
+
+
